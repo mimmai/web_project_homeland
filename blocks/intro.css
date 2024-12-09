@@ -1,0 +1,56 @@
+.intro {
+margin-top: 78px;
+/*revisar como medir las dimensiones entre bloques*/
+}
+
+
+.intro__title {
+margin: auto;
+width: 90%;
+max-width: 830px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 54px;
+line-height: 58px;
+color: #FFFFFF;
+}
+
+.intro__text-quote {
+margin: auto;
+width: 90%;
+max-width: 738px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+color: #FFFFFF;
+
+}
+
+.intro__text-author {
+margin-right: auto;
+width: 90%;
+max-width: 732px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+text-align: right;
+color: #FFFFFF;
+}
+
+.intro__text {
+margin: auto;
+width: 90%;
+max-width: 722px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+color: #FFFFFF;
+
+}

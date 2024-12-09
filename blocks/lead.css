@@ -1,0 +1,41 @@
+.lead {
+margin-top: 91px;
+}
+
+.lead__title {
+width: 90%;
+max-width: 720px;
+margin: auto;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.lead__subtitle {
+max-width: 720px;
+width: 90%;
+margin: 32px auto auto;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.lead__image {
+margin: auto;
+margin-top: 64px;
+display: block;
+max-width: 984px;
+width: 90%;
+height: auto;
+
+}
