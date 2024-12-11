@@ -1,13 +1,17 @@
 .intro {
-margin-top: 78px;
+margin: auto;
 /*revisar como medir las dimensiones entre bloques*/
 }
 
+.intro__paragraphs {
+  max-width: 830px;
+  margin-top: 78px;
+}
 
 .intro__title {
 margin: auto;
 width: 90%;
-max-width: 830px;
+/*max-width: 830px;*/
 font-family: 'Inter';
 font-style: normal;
 font-weight: 900;
@@ -17,9 +21,9 @@ color: #FFFFFF;
 }
 
 .intro__text-quote {
-margin: auto;
+margin: 39.98px auto;
 width: 90%;
-max-width: 738px;
+/*max-width: 738px;*/
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -30,9 +34,11 @@ color: #FFFFFF;
 }
 
 .intro__text-author {
+  margin-top: 10px;
 margin-right: auto;
+/*display flex y justify contente flex end o probar text align*/
 width: 90%;
-max-width: 732px;
+/*max-width: 732px;*/
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -43,9 +49,9 @@ color: #FFFFFF;
 }
 
 .intro__text {
-margin: auto;
+margin: 31.99px auto;
 width: 90%;
-max-width: 722px;
+/*max-width: 722px;*/
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
