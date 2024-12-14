@@ -10,3 +10,12 @@ box-sizing: border-box;
 width: 254.84px;
 height: 68.94px;
 }
+
+@media screen and (min-width:320px) and (max-width:544px) {
+  .header__logo {
+width: 188px;
+height: 52px;
+
+}
+
+}
