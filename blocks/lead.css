@@ -11,7 +11,7 @@ margin-top: 91px;
 width: 100%;
 max-width: 720px;
 margin: auto;
-font-family: 'Inter';
+font-family: "Inter", sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 96px;
@@ -25,7 +25,7 @@ color: #FFFFFF;
 max-width: 720px;
 width: 100%;
 margin: 32px auto auto;
-font-family: 'Inter';
+font-family: "Inter", sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 30px;
@@ -50,7 +50,7 @@ height: auto;
 .lead__title {
 width: 100%;
 max-width: 530px;
-font-family: Inter;
+font-family: "Inter", sans-serif;
 font-size: 75px;
 font-weight: 900;
 line-height: 79px;
@@ -61,7 +61,7 @@ line-height: 79px;
 max-width: 768px;
 height: auto;
 width: 100%;
-
+display: block;
 }
 
 
