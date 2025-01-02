@@ -1,5 +1,7 @@
 .intro {
 margin: auto;
+width: 100%;
+max-width: 984px;
 }
 
 .intro__paragraphs {
@@ -10,7 +12,6 @@ margin: auto;
 .intro__title {
 margin: auto;
 width: 100%;
-/*max-width: 830px;*/
 font-family: "Inter", sans-serif;
 font-style: normal;
 font-weight: 900;
@@ -22,7 +23,6 @@ color: #FFFFFF;
 .intro__text-quote {
 margin: 40px auto;
 width: 100%;
-/*max-width: 738px;*/
 font-family: "Inter", sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -61,9 +61,16 @@ color: #FFFFFF;
 
 @media screen and (min-width:544px) and (max-width:1024px) {
 
+  .intro {
+    margin: auto;
+    width: 100%;
+    max-width: 768px;
+    }
+
+
   .intro__title {
     max-width: 707px;
-    width: 90%;
+    width: 100%;
     margin: auto;
     font-size: 45px;
     font-weight: 900;
@@ -73,20 +80,20 @@ color: #FFFFFF;
 
     .intro__text-quote {
       max-width: 720px;
-      width: 90%;
+      width: 100%;
       margin: 40px auto;
     }
 
     .intro__text-author {
       margin-top: 10px;
       max-width: 720px;
-      width: 90%;
+      width: 100%;
       margin: auto;
     }
 
     .intro__text {
       max-width: 720px;
-      width: 90%;
+      width: 100%;
       margin: 32px auto;
 
 
@@ -95,6 +102,12 @@ color: #FFFFFF;
   }
 
   @media screen and (min-width:320px) and (max-width:544px) {
+
+    .intro {
+      margin: auto;
+      width: 100%;
+      }
+
     .intro__title {
       max-width: 288px;
       width: 100%;
