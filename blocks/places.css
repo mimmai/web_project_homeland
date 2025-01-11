@@ -1,0 +1,102 @@
+.places {
+display: flex;
+flex-direction: column;
+gap: 30px;
+margin-top: 62px;
+}
+
+.place {
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 30px;
+margin-top: 62px;
+}
+
+.place__title {
+width: 100%;
+box-sizing: border-box;
+padding: 0 16px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 35px;
+color: #FFFFFF;
+}
+
+.place__website {
+  padding: 0 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.place__website-artist {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+color: #AAAAAA;
+margin-bottom: 8px;
+}
+
+.place__website-author {
+width: 100%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+.place__image {
+  width: 100%;
+  height: auto;
+}
+
+.place__description {
+padding: 0 16px;
+width: 100%;
+box-sizing: border-box;
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+
+p {
+  margin: 0;
+}
+
+.place__description-paragraph {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+color: #FFFFFF;
+}
+
+.place__button {
+min-width: 288px;
+width: 90%;
+box-sizing: border-box;
+padding: 16px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+height: 48px;
+border-radius: 4px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+background: linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
+text-decoration: none;
+margin: 30px auto 0 auto;
+}
