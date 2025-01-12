@@ -109,6 +109,7 @@ margin: 30px auto 0 auto;
 grid-area: button;
 }
 
+
 .place__button:hover {
   opacity: 50%;
   linear-gradient: (90deg, #0278fe40 0%, #003a7b40 99.98%);
