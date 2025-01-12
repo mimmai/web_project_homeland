@@ -1,12 +1,8 @@
 .places {
-display: flex;
-flex-direction: column;
-gap: 30px;
-margin-top: 62px;
+
 }
 
 .place {
-margin: auto;
 display: flex;
 flex-direction: column;
 gap: 30px;
@@ -23,6 +19,7 @@ font-weight: 900;
 font-size: 32px;
 line-height: 35px;
 color: #FFFFFF;
+grid-area: title;
 }
 
 .place__website {
@@ -32,6 +29,7 @@ color: #FFFFFF;
 }
 
 .place__website-artist {
+  width: 100%;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -41,6 +39,7 @@ letter-spacing: 0.12em;
 text-transform: uppercase;
 color: #AAAAAA;
 margin-bottom: 8px;
+grid-area: artist;
 }
 
 .place__website-author {
@@ -56,6 +55,12 @@ color: #FFFFFF;
 .place__image {
   width: 100%;
   height: auto;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  grid-area: image;
+}
+
+.place__image:hover {
+  opacity: 50%;
 }
 
 .place__description {
@@ -65,6 +70,7 @@ box-sizing: border-box;
 display: flex;
 flex-direction: column;
 gap: 25px;
+grid-area: description;
 }
 
 p {
@@ -97,6 +103,48 @@ font-weight: 600;
 font-size: 14px;
 line-height: 17px;
 background: linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
+box-shadow: 5px 5px 10px #00000040;
 text-decoration: none;
 margin: 30px auto 0 auto;
+grid-area: button;
+}
+
+.place__button:hover {
+  opacity: 50%;
+  linear-gradient: (90deg, #0278fe40 0%, #003a7b40 99.98%);
+}
+
+@media screen and (min-width: 590px) and (max-width: 1020px) {
+  .place {
+    margin: auto;
+    margin-top: 62px;
+    max-width: 720px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: 1fr 340px;
+    gap: 48px;
+    grid-template-areas:
+    "title artist"
+    "image description"
+    "button description";
+  }
+
+}
+
+@media screen and (min-width: 1020px) {
+  .place {
+    margin: auto;
+    margin-top: 62px;
+    max-width: 987px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: 1fr 340px;
+    gap: 48px;
+    grid-template-areas:
+    "title artist"
+    "image description"
+    "button description";
+  }
 }
